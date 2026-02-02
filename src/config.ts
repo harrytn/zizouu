@@ -2,8 +2,8 @@ import { assets } from "$app/paths";
 
 export const config = {
 	mainPage: {
-		heading: "Hello!",
-		invitation: "Will you go on a date with me this week? 👉👈🥺",
+		heading: "Hello,Zaineb!",
+		invitation: "Would you like to be my Valentine? 👉👈🥺",
 		yesText: "Yes",
 		noText: "No",
 		topImage: `${assets}/Assets/Top_picture/Cute_pic2.jpg`,
@@ -15,7 +15,7 @@ export const config = {
 		image: `${assets}/Assets/No_picture/kermit-shooting.gif`,
 	},
 	yesPage: {
-		message: "See you this week 😄",
+		message: "Aarefetek chet9oul ey🥺",
 		image: `${assets}/Assets/Yes_picture/Yes.gif`,
 	},
 };
