@@ -17,7 +17,7 @@ const config = {
 			}
 		),
 		paths: {
-			base: forGithubPages ? '/magicmoment' : ''
+			base: forGithubPages ? '/zizouu/' : ''
 		},
 	}
 
