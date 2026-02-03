@@ -7,15 +7,11 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter(
-			{
-				fallback: 'index.html',
-				pages: 'build',
-				assets: 'build',
-				precompress: true,
-				strict: true
-			}
-		),
+    adapter: adapter({
+      pages: 'build',
+      assets: 'build',
+      fallback: '404.html'   // IMPORTANT for GitHub Pages
+    }),
 		paths: {
 			base: forGithubPages ? '/zizouu' : ''
 		},
